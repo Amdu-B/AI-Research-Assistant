@@ -56,26 +56,11 @@ Retrieved Chunks → LLM → Final Answer (with source citation)
 
 ---
 
-## 📁 Repository Structure
-
-```
-📦 ai-research-assistant
- ┣ 📓 research_assistant_agent.ipynb   ← Main notebook (all code here)
- ┗ 📄 README.md
-```
-
 ---
 
 ## 🚀 Getting Started
 
-### 1. Clone the repo
-
-```bash
-git clone https://github.com/YOUR_USERNAME/ai-research-assistant.git
-cd ai-research-assistant
-```
-
-### 2. Install dependencies
+### 1. Install dependencies
 
 ```bash
 pip install langchain langchain-community langchain-groq langchain-huggingface \
@@ -84,11 +69,11 @@ pip install langchain langchain-community langchain-groq langchain-huggingface \
 
 Or run **Section 0** of the notebook — it installs everything automatically.
 
-### 3. Get a free Groq API key
+### 2. Get a free Groq API key
 
 Sign up at [console.groq.com](https://console.groq.com) → Create API Key (free tier available).
 
-### 4. Set your API key
+### 3. Set your API key
 
 Either create a `.env` file:
 
@@ -102,7 +87,7 @@ Or paste it directly into the notebook config cell:
 GROQ_API_KEY = "gsk_your_key_here"
 ```
 
-### 5. Run the notebook
+### 4. Run the notebook
 
 ```bash
 jupyter notebook research_assistant_agent.ipynb
